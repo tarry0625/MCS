@@ -6,8 +6,8 @@ import Adafruit_DHT
 import http.client as http
 import urllib
 import json
-deviceId = "DMtJZwJF"
-deviceKey = "90rgqH0uAQjGWxHJ"
+deviceId = "DN000FSg"
+deviceKey = "xzd8iaJo7azSKTyT"
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24,GPIO.IN,pull_up_down=GPIO.PUD_UP)
 def post_to_mcs(payload):
